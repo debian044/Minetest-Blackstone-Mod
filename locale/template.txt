@@ -1,0 +1,7 @@
+# textdomain: mcl_blackstone
+Blackstone=
+Polished Blackstone=
+Chieseled Polished Blackstone=
+Polished Blackstone Bricks=
+Basalt=
+
