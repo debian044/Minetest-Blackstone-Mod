@@ -87,3 +87,81 @@ minetest.register_craft({
 		{'mcl_blackstone:blackstone_polished','mcl_blackstone:blackstone_polished'},
 	}
 })
+
+
+minetest.register_craft({
+	output = 'mcl_tools:pick_stone',
+	recipe = {
+		{'mcl_blackstone:blackstone', 'mcl_blackstone:blackstone', 'mcl_blackstone:blackstone'},
+		{'', 'mcl_core:stick', ''},
+		{'', 'mcl_core:stick', ''},
+	}
+})
+
+
+
+minetest.register_craft({
+	output = 'mcl_tools:axe_stone',
+	recipe = {
+		{'mcl_blackstone:blackstone', 'mcl_blackstone:blackstone'},
+		{'mcl_blackstone:blackstone', 'mcl_core:stick'},
+		{'', 'mcl_core:stick'},
+	}
+})
+
+
+minetest.register_craft({
+	output = 'mcl_tools:axe_stone',
+	recipe = {
+		{'mcl_blackstone:blackstone', 'mcl_blackstone:blackstone'},
+		{'mcl_core:stick',  'mcl_blackstone:blackstone'},
+		{'', 'mcl_core:stick'},
+	}
+})
+
+
+minetest.register_craft({
+	output = 'mcl_tools:shovel_stone',
+	recipe = {
+		{'mcl_blackstone:blackstone'},
+		{'mcl_core:stick'},
+		{'mcl_core:stick'},
+	}
+})
+
+
+minetest.register_craft({
+	output = 'mcl_tools:sword_stone',
+	recipe = {
+		{'mcl_blackstone:blackstone'},
+		{'mcl_blackstone:blackstone'},
+		{'mcl_core:stick'},
+	}
+})
+
+
+minetest.register_craft({
+	output = "mcl_farming:hoe_stone",
+	recipe = {
+		{"mcl_blackstone:blackstone", "mcl_blackstone:blackstone"},
+		{"", "mcl_core:stick"},
+		{"", "mcl_core:stick"}
+	}
+})
+minetest.register_craft({
+	output = "mcl_farming:hoe_stone",
+	recipe = {
+		{"mcl_blackstone:blackstone", "mcl_blackstone:blackstone"},
+		{"mcl_core:stick", ""},
+		{"mcl_core:stick", ""}
+	}
+})
+
+minetest.register_craft({
+	output = "mcl_furnaces:furnace",
+	recipe = {
+		{"mcl_blackstone:blackstone", "mcl_blackstone:blackstone", "mcl_blackstone:blackstone"},
+		{"mcl_blackstone:blackstone", "",			   "mcl_blackstone:blackstone"},
+		{"mcl_blackstone:blackstone", "mcl_blackstone:blackstone", "mcl_blackstone:blackstone"}
+	}
+})
